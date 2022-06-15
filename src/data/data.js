@@ -1,11 +1,11 @@
- export const data =[
+ export const data = [
   {
     "day": "mon",
-    "amount": 17.45
+    "amount": 300
   },
   {
     "day": "tue",
-    "amount": 34.91
+    "amount": 100
   },
   {
     "day": "wed",
@@ -13,11 +13,11 @@
   },
   {
     "day": "thu",
-    "amount": 31.07
+    "amount": 100
   },
   {
     "day": "fri",
-    "amount": 23.39
+    "amount":200
   },
   {
     "day": "sat",
@@ -27,4 +27,8 @@
     "day": "sun",
     "amount": 25.48
   }
-] 
+]
+ 
+ 
+ 
+ 

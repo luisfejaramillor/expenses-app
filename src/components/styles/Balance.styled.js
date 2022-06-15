@@ -6,7 +6,7 @@ export const StyledBalance = styled.div`
   justify-content: space-between;
   align-items: center;
   height: 125px;
-  border-radius: 20px 0px 0px 0px;
+  border-radius: 20px;
   margin-bottom: 24px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   padding-left: 30px;
@@ -42,6 +42,30 @@ export const StyledBalance = styled.div`
         background: #382314;
         border-radius: 50%;
         right: 0px;
+      }
+    }
+  }
+
+  @media (max-width: 375px) {
+    height: 97px;
+    p {
+      font-size: 15px;
+    }
+    h1 {
+      font-size: 24px;
+    }
+    .circles {
+      width: 60px;
+      height: 40px;
+      div {
+        :first-child {
+          width: 40px;
+          height: 40px;
+        }
+        :last-child {
+          width: 40px;
+          height: 40px;
+        }
       }
     }
   }
