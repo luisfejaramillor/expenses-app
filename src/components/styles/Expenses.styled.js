@@ -132,7 +132,7 @@ export const StyledExpenses = styled.div`
     }
   }
 
-  @media (max-width: 375px) {
+  @media (max-width: 640px) {
     padding: 24px 20px;
 
     .first {

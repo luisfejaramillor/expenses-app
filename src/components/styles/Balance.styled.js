@@ -46,7 +46,7 @@ export const StyledBalance = styled.div`
     }
   }
 
-  @media (max-width: 375px) {
+  @media (max-width: 640px) {
     height: 97px;
     p {
       font-size: 15px;
